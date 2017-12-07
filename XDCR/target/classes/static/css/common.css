@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+.loginWraper{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0; 
+	bottom:0; 
+	right:0; 
+	z-index:1; 
+	background: url(/images/login/login_bg_main.jpg) no-repeat center;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/login/login_bg_main.jpg',sizingMethod='scale');
+}
+
+.loginBox{ position:absolute; width:500px; height:250px; background:url(/images/login/login_form_bg.png) no-repeat; left:50%; top:50%; margin-left:-309px; margin-top:-184px; padding-top:38px}
+.loginBox .row{
+	margin-top:1px;
+	}
+.tableForm {
+	border-collapse: collapse;
+	font-size:24px;
+	text-align:center;
+	margin: 0px auto;
+	width:100%;
+	height:100%;	
+}
+
+.tableForm th {
+	text-align: center;
+	padding: 5px;
+}
+
+.tableForm td {
+	text-align: center;
+	padding: 5px;
+}
+
+td.col_1 {
+	text-align: right;
+	width:30%;
+	height:100%;
+}
+td.col_2 {
+	text-align: left;
+	width:70%;
+	height:100%;
+}
+
+.tableForm td input {
+	width: 88%;
+	height:25px;
+	
+}
